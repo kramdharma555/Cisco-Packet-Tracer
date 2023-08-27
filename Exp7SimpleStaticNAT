@@ -1,0 +1,127 @@
+Aim: Configure NAT on Cisco Packet Tracer.
+
+Apparatus: PC’s, Switches, Routers, Cables etc.
+
+Procedure:
+
+Network Address Translation (NAT)
+Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa.
+
+ 
+ 
+Configuring Static NAT
+
+
+
+
+
+
+Configuring Dynamic NAT
+
+
+
+
+
+
+
+
+
+Understand the Following 
+Step 1: Prepare the network in the following manner
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step 2: Type the Following Commands
+Open the router Router 0 CLI Mode:
+Enable
+Config t (Configure Terminal)
+Interface GigabitEthernet 0/1
+Ip add 192.168.10.1  255.255.255.0
+No shutdown
+End
+Step 3: Type the Following Commands
+Open router Router 0 CLI mode 
+Config t (Configure Terminal)
+Interface GigabitEthernet 0/0 
+Ip add 10.0.0.1  255.255.255.252
+No shutdown
+End
+Step 4: Type the Following Commands
+Then Open router Router 1 CLI Mode
+Enable 
+Config t (Configure Terminal)
+Interface GigabitEthernet 0/1
+Ip add 10.0.0.2  255.255.255.252
+No shutdown
+End
+Step 5: Type the Following Commands
+Ping PC0 
+Ping 192.168.10.1
+Successful
+Ping 10.0.0.1
+Successful
+Ping 192.168.10.20
+Successful
+Ping 10.0.0.2
+Not successful
+Step 6: Type the Following Commands
+Open router Router 0 CLI mode
+Enable 
+Ping 192.168.10.10
+Ping 192.168.10.20
+Ping 10.0.0.2
+Step 7: Type the Following Commands
+Open router Router 0 CLI mode
+Enable 
+Config t (Configure Terminal)
+Interface GigabitEthernet 0/1
+Ip nat inside
+Exit
+Interface GigabitEthernet 0/0
+Ip nat outside
+Exit
+Ip nat inside source ?
+Ip nat inside source  static ?
+Ip nat inside source  static 192.168.10.10 ?
+Ip nat inside source  static 192.168.10.10  10.0.0.1 ?
+Ip nat inside source static 192.168.10.10  10.0.0.1
+Step 8: Type the Following Commands
+              Open PC0 CMD
+Again ping 10.0.0.2
+Successful
+
+Step 9: Type the Following Commands
+Open router Router 0 CLI mode
+Enable
+Show ip nat translations
+Debug ip nat 
+->//PC0 ping 10.0.0.2 [see this clearly]
+
+Step 10: Type the Following Commands
+Open router Router 0 CLI mode
+Enable
+Config t (Configure Terminal)
+Ip nat inside source static 192.168.10.20  10.0.0.100
+->//if pc1 not ping to 10.0.0.2 then 
+No Ip nat inside source static 192.168.10.10  10.0.0.100
+Ip nat inside source static 192.168.10.10  10.0.0.1
+No debug ip nat
+Step 11: Type the Following Commands
+Open router Router 0 CLI mode
+Enable
+Show ip nat translations
+ 
+
+
+Result/Output:
+The Configuration of Network Address Translation in NAT is successfully done and checked out the results.
