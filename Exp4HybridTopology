@@ -1,0 +1,41 @@
+Aim: Design a network for Hybrid Topology and Checking the connectivity between Two Networks
+
+Requirements: Basic Concepts of Bus/Star/Hybrid Topology, Download and Install Cisco Packet Tracer, IP Addressing
+
+Configuration Steps
+Step 1: Choose the Number of required PC’s and Switch 2950-24
+Step 2: Keep and Assign the given IP address for each and every device (Listed Below)
+IP Address of the Chosen PC’s
+
+Step 3: Configure the Topology Design (Hybrid Type – Refer figure)
+Step 4: Sake/Connect the PCs using 'Copper Straight Through Cable’
+Step 5: Set Ethernet Connection
+Step 6: Configure the PCs (hosts) with IPv4 address and Subnet Mask according to the IP addressing table given
+Note:
+•	To assign an IP address in PC0, click on PC0.
+•	Then, go to desktop and IP configuration and there you will find IPv4 configuration.
+•	Add IPv4 address and subnet mask.
+
+Assigning IP address using the ipconfig command.
+•	We can also assign an IP address with the help of a command.
+•	Go to the command terminal of the PC.
+•	Now type ipconfig <IPv4 address><subnet mask><default gateway>(if needed)
+•	example: ipconfig 192.168.0.1 255.255.255.0 
+
+Network Design
+
+Step 7: Verify the connection by pinging the IP address of any host in PC0.
+
+•	Use the ping command to verify the connection.
+•	We will check, if we are getting any replies or not.
+•	As we can see here getting replies from a targeted node on both PCs. Hence the connection is verified.
+
+Step 8: Take Email Application and run the simulation 
+
+Note: A simulation of the experiment is given below we have sent two PDU packets one targeted from PC0 to PC4 and another targeted from PC3 to PC8.
+
+Output/Result
+Hence, it is observed packet transfer is done between the networks of hybrid (bus/star) topology.
+
+ 
+
