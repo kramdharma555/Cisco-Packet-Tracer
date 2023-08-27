@@ -1,0 +1,38 @@
+Aim: Configure two E-mail servers with different domain names and with at least four users in each domain, demonstrate the process of sending and receiving e-mail messages in real time and simulation mode.
+
+Apparatus: PC’s, Switches, Email Servers, DNS Server, Email Application etc.
+
+Procedure:
+
+Step 1: Assemble Place the Two Different Email Servers and One DNS Server with two switches. Take 4 PC’s for each Email Servers and establishes the connection through Copper-Stright Through Cable.
+
+Step 2: Set the IP Address for GMAIL Server as 192.168.1.1 and for YAHOO Server 192.168.1.2 and also DNS Server IP: 192.168.1.3.
+Step 3: Fix the IP Addresses for all the PC’s by taking the following addresses
+•	IP for PC1: 192.168.1.10 and Subnet Mask: 255.255.255.0
+•	IP for PC2: 192.168.1.11 and Subnet Mask: 255.255.255.0
+•	IP for PC3: 192.168.1.12 and Subnet Mask: 255.255.255.0
+•	IP for PC4: 192.168.1.13 and Subnet Mask: 255.255.255.0
+•	IP for PC5: 192.168.1.14 and Subnet Mask: 255.255.255.0
+•	IP for PC6: 192.168.1.15 and Subnet Mask: 255.255.255.0
+•	IP for PC7: 192.168.1.16 and Subnet Mask: 255.255.255.0
+•	IP for PC8: 192.168.1.17 and Subnet Mask: 255.255.255.0
+
+Step 4: Goto Each Mail Servers (GMAIL and YAHOO) Tick SMTP Service on and POP3 Service on. Create usernames and passwords
+ GMAIL Server
+
+ YAHOO Server
+
+
+Step 5: Then Goto DNS server and select DNS service, tick the DNS service on. Set IP Address: 192.168.1.3 and Subnet Mask: 255.255.255.0. Then Goto Services and add the Items (Servers)
+  
+Step 6: Now Goto Each PC and login on PC Mail application with usernames and passwords which have been created on mail server.
+ 
+ 
+
+Check at the bottom, it shows the status of the message.
+ 
+Step 7: Check the received PC’s receive menu. You can find out the sent email.
+ 
+
+Result/Output:
+The Email Server Configuration is successfully done and checked out the Email Sent and Received are identified.
