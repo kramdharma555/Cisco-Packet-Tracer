@@ -1,0 +1,19 @@
+Aim: Configure HTTP server and demonstrate the process to access a website using IP address in real time and simulation mode. 
+
+Apparatus: PC’s, Switches, DNS Servers and HTTP web Configuration
+
+Procedure:
+
+Step 1: Assemble the needed Devices with the following setup
+Step 2: Give connections with Copper Stright Through Cable
+Step 3: Make Server 0 – Web Server and Server 1 as DNS Server
+Step 4: Web Server IP Configuration IP Address: 192.168.1.2 and DNS Server: 192.168.1.1
+Step 5: Then Goto Services, then Select HTTP and modify the index.html at the last one and do the edit option, change and customize the code. Then Save.
+Step 6: Goto DNS Server, IP Configuration IP Address: 192.168.1.1, Keep DNS Server also same. Then Goto Services, Choose DNS Service, Click on (radio button), Given some name Ex: Cisco and set IP Address is Web Server (IP Address: 192.168.1.2), then Click Add button
+Step 7: Goto the PC, set the IP Address through IP Configuration IP Address: 192.168.1.3, give DNS Server IP Address: 192.168.1.1. Close that window.
+Step 8: In Desktop Goto web browser (in PC), under URL type web site name or IP Address
+(You can see the website execution)
+Step 9: If you want to change the name of the web server, click DNS server, Services, then DNS, then select the record and change the name then click save. Cross check by visiting to the web browser once again.
+
+Result/Output:
+Observed results are verified by taking the mentioned scenario.
