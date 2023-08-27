@@ -1,0 +1,17 @@
+Aim: Design a network to show working of hub in star networks.
+Requirements: Basic Concepts of Star Topology, Download and Install Cisco Packet Tracer, IP Addressing
+Configuration Steps
+Step 1: Choose the Switch 2950-24
+Step 2: Keep any 4 PCs like a Star type
+Step 3: Take/Connect the PCs using 'Copper Straight Through Cable’
+Step 4: Set Ethernet Connection
+Step 5: Goto IP Configuration and Set the following IP Address and Ensure Static
+Step 6: Take Email Application and run the simulation
+
+Device Name	IP Address	Subnet Mask
+PC0		155.178.1.1	255.255.0.0
+PC1		155.178.1.2	255.255.0.0
+Laptop0	155.178.1.3	255.255.0.0
+Laptop1	155.178.1.4	255.255.0.0
+Topology Design
+ 
