@@ -1,0 +1,19 @@
+
+Aim: Design a hybrid topology with a bus backbone and two-star networks and check the connectivity between two systems.
+
+Apparatus: PC’s, Switches, Routers, Cables etc.
+
+Procedure:
+Step 1: Configure the network like the following by taking certain number of required PCs, Switches, Hubs etc.
+
+
+ 
+
+Step 2: Assign the IP Address for each PC and Connect them using the required cables 
+•	IP for PC1: 192.168.0.1 and Subnet Mask: 255.255.255.0 (Example for PC1)
+
+Step 3: Ensure Hybrid (Bus/Two Star Topologies) existed
+Step 4: Add the Application for the sample and observe the execution
+
+Result/Output:
+The Configuration of Hybrid Topology (Two Networks of Star Topology and Bus Topology) is made and the results are observed.
