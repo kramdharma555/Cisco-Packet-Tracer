@@ -1,0 +1,20 @@
+Experiment 1:
+Aim: Study of different types of Network cables and practically implements the cross-wired cable and
+straight through cable using clamping tool.
+
+Apparatus (Components): RJ-45 connector, Clamping Tool, Twisted pair Cable
+Procedure: To do these practical following steps should be done:
+1. Start by stripping off about 2 inches of the plastic jacket off the end of the cable. Be very careful at this point, as to not nick or cut into the wires, which are inside. Doing so could alter the characteristics of your cable, or even worse render is useless. Check the wires, one more time for nicks or cuts. If there are any, just whack the whole end off, and start over.
+2. Spread the wires apart, but be sure to hold onto the base of the jacket with your other hand. You do not want the wires to become untwisted down inside the jacket. Category 5 cable must only have ½ of an inch of 'untwisted' wire at the end; otherwise, it will be 'out of spec'. At this point, you obviously have ALOT more than 1/2 of an inch of un-twisted wire.
+3. You have 2 end jacks, which must be installed on your cable. If you are using a pre-made cable, with one of the ends whacked off, you only have one end to install - the crossed over end. Below are two diagrams, which show how you need to arrange the cables for each type of cable end. Decide at this point which end you are making and examine the associated picture below.
+
+Ethernet Cable Tips:
+•	A straight-thru cable has identical ends.
+•	A crossover cable has different ends.
+•	A straight-thru is used as a patch cord in Ethernet connections.
+•	A crossover is used to connect two Ethernet devices without a hub or for connecting two hubs.
+•	A crossover has one end with the Orange set of wires switched with the Green set.
+•	Odd numbered pins are always striped; even numbered pins are always solid coloured.
+•	Looking at the RJ-45 with the clip facing away from you, Brown is always on the right, and pin 1 is on the left.
+•	No more than 1/2" of the Ethernet cable should be untwisted otherwise it will be susceptible to crosstalk.
+•	Do not deform, do not bend, do not stretch, do not staple, do not run parallel with power cables, and do not run Ethernet cables near noise inducing components.
